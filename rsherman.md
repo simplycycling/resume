@@ -2,14 +2,16 @@
 ---
 
 **Roger Sherman**  
+20 Cumming Street
 
-20 Cumming Street 
 North Toowoomba, QLD 4350
+
 rsherman@linux.com
+
 +61 405 655 689
 
 **Objective:**  
-Dynamic and results-oriented professional with a solid background in network engineering and extensive experience in systems administration, DevOps, and cloud environments. Proven track record of successfully managing and optimizing IT infrastructure, implementing efficient solutions, and driving innovation. Seeking to leverage technical expertise and leadership skills to contribute effectively as a Senior DevOps Engineer in a dynamic organization.
+Dynamic and results-oriented professional with a solid background in platform engineering and extensive experience in systems administration, DevOps, and cloud environments. Proven track record of successfully managing and optimizing IT infrastructure, implementing efficient solutions, and driving innovation. Seeking to leverage technical expertise and leadership skills to contribute effectively as a Senior DevOps Engineer in a dynamic organization.
 
 
 **Professional Experience:**
