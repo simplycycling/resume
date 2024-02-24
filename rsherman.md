@@ -15,8 +15,8 @@ Dynamic and results-oriented professional with a solid background in platform en
 **Professional Experience:**
 
 **Dash**  
-North Sydney [Hybrid]
-Senior DevOps Engineer
+North Sydney [Hybrid]  
+Senior DevOps Engineer  
 June 2023 - Present
 - Manage AWS environments and Kubernetes clusters, ensuring optimal performance and scalability.
 - Upgrade Kubernetes environments to recent versions, streamlining processes for enhanced efficiency.
