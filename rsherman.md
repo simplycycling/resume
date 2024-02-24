@@ -55,8 +55,9 @@ March 2014 - January 2017
 - Orchestrated the transition of environments from a co-lo to a datacenter, optimizing performance and reliability.
 - Architected multiple AWS environments for new applications, ensuring scalability and efficiency.
 
-**Systems Administrator (Ops Team)**  
-Tekmark, Red Bank, NJ  
+**Tekmark**  
+Red Bank, NJ  
+Systems Administrator (Ops Team)
 October 2012 - March 2014
 - Provided Tier 2 customer service support, addressing customer tickets and troubleshooting issues.
 - Promoted to the Ops team as a Systems Administrator, supporting Redbox Instant video streaming product.
