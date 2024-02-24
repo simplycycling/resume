@@ -2,10 +2,8 @@
 ---
 
 **Roger Sherman**  
-20 Cumming Street
-
-North Toowoomba, QLD 4350
-
+20 Cumming Street  
+North Toowoomba, QLD 4350  
 rsherman@linux.com
 
 +61 405 655 689
@@ -16,8 +14,9 @@ Dynamic and results-oriented professional with a solid background in platform en
 
 **Professional Experience:**
 
-**Senior DevOps Engineer**  
-Dash, North Sydney  
+**Dash**  
+North Sydney [Hybrid]
+Senior DevOps Engineer
 June 2023 - Present
 - Manage AWS environments and Kubernetes clusters, ensuring optimal performance and scalability.
 - Upgrade Kubernetes environments to recent versions, streamlining processes for enhanced efficiency.
@@ -25,8 +24,8 @@ June 2023 - Present
 - Enhanced security measures by updating IAM policies and configurations.
 - Actively contribute to transitioning the company towards a GitOps methodology, streamlining deployment processes and enhancing version control.
 
-**Senior DevOps Engineer**  
-Westpac  
+**Westpac**  
+Senior DevOps Engineer  
 [Location - Remote]  
 May 2023 - May 2023
 - Oversaw multiple bare metal clusters hosting Westpac's low latency trading platform.
@@ -34,16 +33,23 @@ May 2023 - May 2023
 - Implemented precision improvements by transitioning from NTP to PTP.
 - Upgraded and optimized outdated Elasticsearch cluster for improved functionality.
 
-**DevSecOps Engineer**  
-Quantium, Sydney  
-February 2017 - November 2021
+**Quantium**  
+Sydney  
+DevSecOps Engineer
+March 2021 - November 2021
+- Worked with existing Security staff to teach DevOps/DevSecOps methodologies
+- Set up Hashicorp Vault
+
+Platform Engineer
+February 2017 - March 2021
 - Supported multiple Hadoop clusters in both bare metal and cloud environments.
 - Played a key role in developing proof of concepts for cloud migration initiatives.
 - Led initiatives to incorporate DevOps principles into the security team, promoting collaboration and efficiency.
 - Collaborated with Google to gain expertise in their big data stack and managed Kubernetes offering.
 
-**Systems Engineer**  
-Viddler, Bethlehem PA  
+**Viddler**  
+Bethlehem PA  
+DevSecOps Engineer  
 March 2014 - January 2017
 - Managed various environments for streaming video projects, including physical to virtual migration.
 - Orchestrated the transition of environments from a co-lo to a datacenter, optimizing performance and reliability.
