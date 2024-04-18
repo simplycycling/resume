@@ -49,8 +49,10 @@ February 2017 - March 2021
 
 **Viddler**  
 Bethlehem PA  
-DevSecOps Engineer  
-March 2014 - January 2017
+Senior Systems Engineer  
+September 2015 - January 2017  
+Systems Administrator  
+March 2014 - September 2015
 - Managed various environments for streaming video projects, including physical to virtual migration.
 - Orchestrated the transition of environments from a co-lo to a datacenter, optimizing performance and reliability.
 - Architected multiple AWS environments for new applications, ensuring scalability and efficiency.
