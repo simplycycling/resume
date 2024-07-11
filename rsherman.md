@@ -27,7 +27,7 @@ June 2023 - Present
 **Westpac**  
 Senior DevOps Engineer  
 [Location - Remote]  
-May 2023 - May 2023
+November 2020 - May 2023
 - Oversaw multiple bare metal clusters hosting Westpac's low latency trading platform.
 - Upgraded infrastructure from RHEL 6 to RHEL 7, improving performance and security.
 - Implemented precision improvements by transitioning from NTP to PTP.
@@ -36,12 +36,12 @@ May 2023 - May 2023
 **Quantium**  
 Sydney  
 DevSecOps Engineer
-March 2021 - November 2021
+March 2020 - November 2020
 - Worked with existing Security staff to teach DevOps/DevSecOps methodologies
 - Set up Hashicorp Vault
 
 Platform Engineer
-February 2017 - March 2021
+February 2017 - March 2020
 - Supported multiple Hadoop clusters in both bare metal and cloud environments.
 - Played a key role in developing proof of concepts for cloud migration initiatives.
 - Led initiatives to incorporate DevOps principles into the security team, promoting collaboration and efficiency.
