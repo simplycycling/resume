@@ -18,7 +18,7 @@ Dynamic and results-oriented professional with a solid background in platform en
 North Sydney [Hybrid]  
 Senior DevOps Engineer  
 June 2023 - Present
-- Manage AWS environments and Kubernetes clusters, ensuring optimal performance and scalability.
+- Manage AWS and Azure environments, and Kubernetes clusters, ensuring optimal performance and scalability.
 - Upgrade Kubernetes environments to recent versions, streamlining processes for enhanced efficiency.
 - Successfully led Kubernetes upgrades from v1.24 to 1.27 and migrated from OpsWorks to Azure Pipelines.
 - Enhanced security measures by updating IAM policies and configurations.
