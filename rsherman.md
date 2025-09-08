@@ -22,6 +22,7 @@ June 2023 - Present
 - Successfully led Kubernetes upgrades from v1.24 to 1.27 and migrated from OpsWorks to Azure Pipelines.
 - Enhanced security measures by updating IAM policies and configurations.
 - Actively contribute to transitioning the company towards a GitOps methodology, streamlining deployment processes and enhancing version control.
+- Refactored IAM's to improve scalability and auditability, and improve security posture.
 
 **Westpac**  
 Senior DevOps Engineer  
