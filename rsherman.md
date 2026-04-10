@@ -1,79 +1,92 @@
+# Roger Sherman
+
+20 Cumming Street, North Toowoomba, QLD 4350
+rsherman@linux.com | +61 405 655 689
+[LinkedIn](https://www.linkedin.com/in/roger-sherman-48527736/) | [GitHub](https://github.com/simplycycling)
+
 ---
 
-**Roger Sherman**  
-20 Cumming Street  
-North Toowoomba, QLD 4350  
-rsherman@linux.com
+## Professional Summary
 
-+61 405 655 689
+Senior DevOps and Platform Engineer with 12+ years of experience across cloud infrastructure, Kubernetes, and large-scale bare metal environments. Deep hands-on expertise in AWS, Terraform, Ansible, and Kubernetes — with a consistent track record of inheriting messy infrastructure and leaving it significantly better. Experienced across the full platform engineering lifecycle: greenfield builds, complex migrations, security hardening, and operational automation. Has worked at scale in trading, data analytics, and SaaS environments. Currently pursuing AWS Solutions Architect and CKA/CKAD certifications.
 
-**Objective:**  
-Dynamic and results-oriented professional with a solid background in platform engineering and extensive experience in systems administration, DevOps, and cloud environments. Proven track record of successfully managing and optimizing IT infrastructure, implementing efficient solutions, and driving innovation using tools such as Terraform, Ansible, and Python. Seeking to leverage technical expertise and leadership skills to contribute effectively as a Senior DevOps Engineer in a dynamic organization.
+---
 
-**Professional Experience:**
+## Professional Experience
 
-**Dash**  
-North Sydney [Hybrid]  
-Senior DevOps Engineer  
-June 2023 - Present
+### Dash — Senior DevOps Engineer
+**June 2023 – Present | North Sydney (Hybrid)**
 
-- Manage AWS and Azure environments, and Kubernetes clusters, ensuring optimal performance and scalability.
-- Upgrade Kubernetes environments to recent versions, streamlining processes for enhanced efficiency.
-- Successfully led Kubernetes upgrades from v1.24 to 1.27 and migrated from OpsWorks to Azure Pipelines.
-- Enhanced security measures by updating IAM policies and configurations.
-- Actively contribute to transitioning the company towards a GitOps methodology, streamlining deployment processes and enhancing version control.
-- Refactored IAM's to improve scalability and auditability, and improve security posture.
+- Migrated legacy deployment pipeline from AWS OpsWorks (end-of-life) to Azure Pipelines, authoring PowerShell automation to support the transition
+- Built greenfield Terraform modules to fully codify the legacy platform infrastructure, enabling repeatable, version-controlled environment provisioning
+- Authored all Ansible automation for configuration management and day-2 operations across the legacy platform
+- Contributed to the migration of a Kubernetes cluster from kOps to EKS; upgraded all four clusters to supported versions, including remediating clusters running past end-of-life
+- Completely refactored AWS IAM across ~160 accounts — eliminating ~180 inline policies and replacing them with a structured, role-based model — significantly improving security posture, auditability, and scalability
+- Upgraded AWS WAFv1 to WAFv2 across all non-production environments
+- Executed major database upgrades across both self-hosted and RDS instances: MongoDB 6 → 8 and PostgreSQL 11 → 15
+- Initiated a proof-of-concept deployment of Ansible Automation Platform on AWS to standardise and scale automation workflows
+- Supported observability and monitoring operations using Datadog as part of broader platform engineering responsibilities.
 
-**Westpac**  
-Senior DevOps Engineer  
-[Location - Remote]  
-November 2020 - May 2023
+---
 
-- Oversaw multiple bare metal clusters hosting Westpac's low latency trading platform.
-- Upgraded infrastructure from RHEL 6 to RHEL 7, improving performance and security.
-- Implemented precision improvements by transitioning from NTP to PTP.
-- Upgraded and optimized outdated Elasticsearch cluster for improved functionality.
+### Westpac — Senior DevOps Engineer
+**November 2020 – May 2023 | Remote**
 
-**Quantium**  
-Sydney  
-DevSecOps Engineer
-March 2020 - November 2020
+- Administered, maintained, and upgraded three RHEL bare metal clusters hosting Westpac's low-latency trading platform, spanning data centres in New York and London
+- Led a major RHEL 6 → 7 infrastructure migration, coordinating application teams across independently developed workloads — managing the complexity of aligning multiple teams and release schedules simultaneously
+- Built out a new 30-node cluster from the ground up in London — from disk provisioning through OS installation to full configuration management via Puppet
+- Inherited fundamentally broken Ansible automation: playbooks were serial-only, relied heavily on shell modules, and were "version controlled" by copying dated directories. Refactored into properly parallelised, idempotent playbooks under real version control
+- Participated in regular on-call rotation, performing weekend deployments, security patching, and out-of-hours maintenance
+- Transitioned time synchronisation from NTP to PTP, reducing clock drift for latency-sensitive trading workloads
 
-- Worked with existing Security staff to teach DevOps/DevSecOps methodologies
-- Set up Hashicorp Vault
+---
 
-Platform Engineer
-February 2017 - March 2020
+### Quantium — DevSecOps Engineer
+**March 2020 – November 2020 | Sydney**
 
-- Supported multiple Hadoop clusters in both bare metal and cloud environments.
-- Played a key role in developing proof of concepts for cloud migration initiatives.
-- Led initiatives to incorporate DevOps principles into the security team, promoting collaboration and efficiency.
-- Collaborated with Google to gain expertise in their big data stack and managed Kubernetes offering.
+- Deployed and configured HashiCorp Vault for secrets management, rolling out adoption across multiple business units
+- Embedded within the security team to introduce and teach DevOps methodology to a team operating entirely without automation practices — shifting the team from manual, GUI-driven workflows toward code-driven operations
 
-**Viddler**  
-Bethlehem PA  
-Senior Systems Engineer  
-September 2015 - January 2017  
-Systems Administrator  
-March 2014 - September 2015
+### Quantium — Platform Engineer
+**February 2017 – March 2020 | Sydney**
 
-- Managed various environments for streaming video projects, including physical to virtual migration.
-- Orchestrated the transition of environments from a co-lo to a datacenter, optimizing performance and reliability.
-- Architected multiple AWS environments for new applications, ensuring scalability and efficiency.
+- Operated and maintained three Apache Mesos/MapR Hadoop bare metal clusters — two production clusters of 150+ nodes each running Hadoop-as-a-service for data analysts and scientists, plus a dev cluster
+- Supported QOS (Quantium Operating System), a bespoke in-house Go application providing a TUI-driven "app store" for analysts to launch dockerised data workloads onto clusters with quota and data attachment management — an early and genuinely novel approach to internal developer platforms
+- Implemented Calico network policy across Mesos clusters with no community documentation to reference — required reading upstream source code to understand integration points, working with one other engineer to solve a problem nobody had publicly solved
+- Upgraded and significantly refactored Ansible automation across the platform; upgraded Sensu monitoring infrastructure and led evaluation of replacement platforms including Prometheus
+- Embedded at Google's Sydney office (Circular Quay) to learn their data stack and evaluate integration with Kubernetes — one of several cloud PoC engagements conducted with Google, AWS, and Azure engineers
 
-**Tekmark**  
-Red Bank, NJ  
-Systems Administrator (Ops Team)
-October 2012 - March 2014
+---
 
-- Provided Tier 2 customer service support, addressing customer tickets and troubleshooting issues.
-- Promoted to the Ops team as a Systems Administrator, supporting Redbox Instant video streaming product.
-- Reproduced customer issues and implemented solutions to enhance product reliability and performance.
+### Viddler — Senior Systems Engineer / Systems Administrator
+**March 2014 – January 2017 | Bethlehem, PA**
 
-**Skills:**
+- Led a HIPAA/PCI compliance initiative working directly with the CISO — hardening the target environment to satisfy both regulatory frameworks, ensuring encryption at rest and in transit throughout
+- Drove a full infrastructure modernisation triggered by Heartbleed: audited all software across the environment, migrated Debian infrastructure to Ubuntu, and used the opportunity to migrate configuration management from Puppet to Ansible
+- Architected AWS environments for new applications, establishing the team's first cloud footprint
+- Managed physical-to-virtual migration and orchestrated the transition from co-location to a dedicated datacenter
 
-- Proficient in managing AWS environments and Kubernetes clusters.
-- Strong experience with infrastructure optimization, system upgrades, and migrations.
-- Skilled in implementing DevOps principles and fostering collaboration across teams using Python, Ruby, Go, and Bash scripting.
-- Excellent problem-solving and troubleshooting abilities.
-- Familiarity with security protocols and best practices.
+---
+
+### Tekmark — Systems Administrator
+**October 2012 – March 2014 | Red Bank, NJ**
+
+- Promoted from Tier 2 customer support into the Ops team, supporting the Redbox Instant video streaming platform
+- Handled infrastructure operations, issue reproduction, and platform reliability improvements
+
+---
+
+## Skills
+
+| Area | Technologies |
+|---|---|
+| **Cloud** | AWS (EC2, EKS, RDS, IAM, WAF, EventBridge, S3), Azure |
+| **Infrastructure as Code** | Terraform, Ansible, Ansible Automation Platform |
+| **Containers & Orchestration** | Kubernetes (EKS, kOps), Docker, Mesos, Calico, Cilium |
+| **CI/CD** | Azure Pipelines, GitOps methodology |
+| **Observability** | Datadog, Prometheus, Sensu |
+| **Databases** | PostgreSQL, MongoDB, Elasticsearch |
+| **Security** | HashiCorp Vault, IAM design, HIPAA/PCI compliance, WAF |
+| **Operating Systems** | RHEL/CentOS, Ubuntu/Debian |
+| **Languages** | Python, Go, Bash, PowerShell, Ruby |
+| **Configuration Management** | Ansible, Puppet |
