@@ -25,7 +25,7 @@ Senior DevOps and Platform Engineer with 12+ years of experience across cloud in
 - Upgraded AWS WAFv1 to WAFv2 across all non-production environments
 - Executed major database upgrades across both self-hosted and RDS instances: MongoDB 6 → 8 and PostgreSQL 11 → 15
 - Initiated a proof-of-concept deployment of Ansible Automation Platform on AWS to standardise and scale automation workflows
-- Supported observability and monitoring operations using Datadog as part of broader platform engineering responsibilities.
+- Maintained observability and monitoring across the platform using Datadog, supporting incident response and performance visibility
 
 ---
 
