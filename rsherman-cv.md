@@ -1,7 +1,7 @@
 # Roger Sherman
 
-20 Cumming Street, North Toowoomba, QLD 4350
-rsherman@linux.com | +61 405 655 689
+20 Cumming Street, North Toowoomba, QLD 4350  
+rsherman@linux.com | +61 405 655 689  
 LinkedIn: https://www.linkedin.com/in/roger-sherman-48527736/  
 GitHub: https://github.com/simplycycling  
 
