@@ -2,13 +2,14 @@
 
 20 Cumming Street, North Toowoomba, QLD 4350
 rsherman@linux.com | +61 405 655 689
-[LinkedIn](https://www.linkedin.com/in/roger-sherman-48527736/) | [GitHub](https://github.com/simplycycling)
+LinkedIn: https://www.linkedin.com/in/roger-sherman-48527736/
+GitHub: https://github.com/simplycycling
 
 ---
 
 ## Professional Summary
 
-Senior DevOps and Platform Engineer with 12+ years of experience across cloud infrastructure, Kubernetes, and large-scale bare metal environments. Deep hands-on expertise in AWS, Terraform, Ansible, and Kubernetes — with a consistent track record of inheriting messy infrastructure and leaving it significantly better. Experienced across the full platform engineering lifecycle: greenfield builds, complex migrations, security hardening, and operational automation. Has worked at scale in trading, data analytics, and SaaS environments. Currently pursuing AWS Solutions Architect and CKA/CKAD certifications.
+Senior DevOps and Platform Engineer with 12+ years of experience across cloud infrastructure, Kubernetes, and large-scale bare metal environments. Deep hands-on expertise in AWS, Terraform, Ansible, and Kubernetes — with a consistent track record of inheriting messy infrastructure and leaving it significantly better. Experienced across the full platform engineering lifecycle: greenfield builds, complex migrations, security hardening, and operational automation. Has worked at scale in trading, data analytics, and SaaS environments. Experienced operating at the intersection of architecture and hands-on execution, with a track record of defining platform standards and mentoring engineers. Currently pursuing AWS Solutions Architect and CKA/CKAD certifications.
 
 ---
 
@@ -25,7 +26,8 @@ Senior DevOps and Platform Engineer with 12+ years of experience across cloud in
 - Upgraded AWS WAFv1 to WAFv2 across all non-production environments
 - Executed major database upgrades across both self-hosted and RDS instances: MongoDB 6 → 8 and PostgreSQL 11 → 15
 - Initiated a proof-of-concept deployment of Ansible Automation Platform on AWS to standardise and scale automation workflows
-- Maintained observability and monitoring across the platform using Datadog, supporting incident response and performance visibility
+- Supported observability and monitoring operations using Datadog as part of broader platform engineering responsibilities
+- Managed and operated Kafka on Kubernetes as part of the platform stack
 
 ---
 
@@ -50,7 +52,8 @@ Senior DevOps and Platform Engineer with 12+ years of experience across cloud in
 ### Quantium — Platform Engineer
 **February 2017 – March 2020 | Sydney**
 
-- Operated and maintained three Apache Mesos/MapR Hadoop bare metal clusters — two production clusters of 150+ nodes each running Hadoop-as-a-service for data analysts and scientists, plus a dev cluster
+- Operated and maintained three Apache Mesos/MapR Hadoop bare metal clusters — two production clusters of 150+ nodes each — while leading the team's transition to Kubernetes from 2019, building foundational cluster networking using MetalLB for bare metal load balancer IP assignment and a dual CoreDNS architecture to expose pod DNS publicly, and integrating Ceph for persistent storage
+- Operated Kafka on bare metal Mesos clusters as part of the core data platform, supporting high-throughput data pipelines for analytics workloads
 - Supported QOS (Quantium Operating System), a bespoke in-house Go application providing a TUI-driven "app store" for analysts to launch dockerised data workloads onto clusters with quota and data attachment management — an early and genuinely novel approach to internal developer platforms
 - Implemented Calico network policy across Mesos clusters with no community documentation to reference — required reading upstream source code to understand integration points, working with one other engineer to solve a problem nobody had publicly solved
 - Upgraded and significantly refactored Ansible automation across the platform; upgraded Sensu monitoring infrastructure and led evaluation of replacement platforms including Prometheus
@@ -82,11 +85,19 @@ Senior DevOps and Platform Engineer with 12+ years of experience across cloud in
 |---|---|
 | **Cloud** | AWS (EC2, EKS, RDS, IAM, WAF, EventBridge, S3), Azure |
 | **Infrastructure as Code** | Terraform, Ansible, Ansible Automation Platform |
-| **Containers & Orchestration** | Kubernetes (EKS, kOps), Docker, Mesos, Calico, Cilium |
+| **Containers & Orchestration** | Kubernetes (EKS, kOps, bare metal), Docker, Mesos, Calico, Cilium |
 | **CI/CD** | Azure Pipelines, GitOps methodology |
-| **Observability** | Datadog, Prometheus, Sensu |
+| **Observability** | Datadog, Prometheus, Sensu, Grafana LGTM |
 | **Databases** | PostgreSQL, MongoDB, Elasticsearch |
-| **Security** | HashiCorp Vault, IAM design, HIPAA/PCI compliance, WAF |
+| **Storage** | Ceph |
+| **Messaging** | Kafka |
+| **Security** | HashiCorp Vault, IAM design, HIPAA/PCI compliance, WAF, Kyverno |
 | **Operating Systems** | RHEL/CentOS, Ubuntu/Debian |
 | **Languages** | Python, Go, Bash, PowerShell, Ruby |
 | **Configuration Management** | Ansible, Puppet |
+
+---
+
+## Community & Speaking
+
+- Presented at the New York City Ansible Meetup Group while at Viddler, sharing operational experience and best practices with the local DevOps community
